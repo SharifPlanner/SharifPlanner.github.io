@@ -23,4 +23,5 @@ mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
 echo "Thank You! Your message has been sent. We will get back to you shortly.";
 
-?>
+header("Location: /php/SignUpMail.php");
+exit();
